@@ -46,15 +46,11 @@ document.getElementById("secondelement").innerHTML = myFunction(300, 3);
       <p id="fourthelement"></p>
 
 <script>
-const d = new Date();
-document.getElementById("fourthelement").innerHTML = d;
+<button type="button"
+onclick="document.getElementById('fourthelement').innerHTML = Date()">
+Click me to display Date and Time.</button>
 </script>
 				       
-function alphabet_order(str)
-  {
-return str.split('').sort().join('');
-  }
-console.log(alphabet_order("webmaster"));
 				       
 			      
   </body>
