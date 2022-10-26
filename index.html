@@ -17,7 +17,7 @@
 </div>
 	  
   </head>
-  <body>
+  <body>					
     <div class="container">
       <button class="btn" onclick='writeValue()'>First Element-Click me</button>
       <p id="firstelement"></p>
@@ -28,8 +28,11 @@
         document.getElementById('firstelement').innerHTML = 'Welcome to my HW5, I am learning javascript!';
       }
     </script>
-    <p id="secondelement"></p>
-
+    
+    <div class="container">
+      <button class="btn" onclick='writeValue()'>Second Element-Click me</button>
+      <p id="secondelement"></p>
+    </div>
 <script>
 function myFunction(p1, p2) {
   return p1 * p2;
@@ -43,7 +46,10 @@ document.getElementById("secondelement").innerHTML = myFunction(300, 3);
 
 <button onclick="document.getElementById('thirdelement').src='https://www.w3schools.com/js/pic_bulboff.gif'">Turn off the light</button>
 
-<p id="fourthelement"></p>
+    <div class="container">
+      <button class="btn" onclick='writeValue()'>Fourth Element-Click me</button>
+      <p id="fourthelement"></p>
+    </div>
 
 <script>
 const d = new Date();
